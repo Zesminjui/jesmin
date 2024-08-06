@@ -1,0 +1,19 @@
+class Substraction
+{
+int a,b,total;
+void sub()
+{
+a=5;
+b=10;
+total=b-a;
+System.out.println("Substarction of two numbers:"-total);
+}
+}
+class Msubstraction
+{
+public static void main(String args[])
+{
+Substraction obj=new Substraction();
+obj.sub();
+}
+}
